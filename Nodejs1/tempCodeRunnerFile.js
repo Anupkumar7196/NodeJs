@@ -1,0 +1,9 @@
+const server = http.createServer((req, res)=>{
+    console.log("Started");
+    res.setHeader("Hello", "response");
+    res.end("Hello I am response");
+})
+
+server.listen(3000,()=>{
+    console.log("Server running on port 3000");
+})
