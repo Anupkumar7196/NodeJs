@@ -6,7 +6,7 @@ function calculate(a, b) {
     console.log(sum);
     
 }
-
+// Exporting a function
 module.exports = {
     x: x,
     calculate: calculate,
