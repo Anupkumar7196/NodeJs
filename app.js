@@ -1,11 +1,15 @@
-const calculate = require("./sum.js");
+const obj = require("./sum.js");
 
-var name="Anup kumar";
+var name="Hellow World";
 console.log(name);
 
 // console.log(global);
 console.log("Sum module is executed");
 var a = 8;
 var b = 9;
-calculate(a, b);
-console.log(calculate);
+
+console.log(obj.x);
+obj.calculate(a, b);
+console.log("---------------");
+
+
