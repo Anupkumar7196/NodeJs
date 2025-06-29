@@ -20,8 +20,12 @@ const obj = require("./sum.js");
 
 var a = 10;
 var b = 20;
-import { calculateSum, calculateMultiply } from "./index.js";
-calculateSum(a,b);
-calculateMultiply(a,b);
+// import { calculateSum, calculateMultiply } from "./index.js";
+// calculateSum(a,b);
+// calculateMultiply(a,b);
 
+console.log("IIFE");
+
+import { calculateMultiply1 } from "./multiply.js";
+calculateMultiply1(a, b);
 
